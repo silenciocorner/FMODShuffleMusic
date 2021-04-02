@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6917c97a-c9d7-403b-ad02-3447c95064f3}">
+		<property name="assetPath">
+			<value>Moglebaum - You &amp; Me (Live In The Shop).mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>274.91265306122449</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{55ac8534-7811-4a07-a7bd-9bc24b7c75b2}</destination>
+		</relationship>
+	</object>
+</objects>

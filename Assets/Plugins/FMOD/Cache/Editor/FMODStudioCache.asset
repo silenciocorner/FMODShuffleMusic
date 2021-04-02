@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5184994204515498927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Projekt/ShuffleMusic/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637529801551818001
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 5215677537237736330}
+  - {fileID: -5184994204515498927}
+  EditorEvents:
+  - {fileID: 8099761069087336155}
+  - {fileID: 1497116002731813776}
+  - {fileID: 2410345242235319281}
+  - {fileID: 8277537892330583008}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5184994204515498927}
+  StringsBanks:
+  - {fileID: 5215677537237736330}
+  stringsBankWriteTime: 637529801551838001
+  cacheVersion: 4
+--- !u!114 &1497116002731813776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SOHN - Lessons (Moglebaum Remix)
+  m_EditorClassIdentifier: 
+  Path: event:/SOHN - Lessons (Moglebaum Remix)
+  guid: 0e3d9df01f0533479f839cba013ba963
+  Banks:
+  - {fileID: -5184994204515498927}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 172591
+--- !u!114 &2410345242235319281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Moglebaum - Vision
+  m_EditorClassIdentifier: 
+  Path: event:/Moglebaum - Vision
+  guid: a05d466794f62f4bab054da7f29f21ba
+  Banks:
+  - {fileID: -5184994204515498927}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 209057
+--- !u!114 &5215677537237736330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD Projekt/ShuffleMusic/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637529801551838001
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 926
+  Exists: 1
+--- !u!114 &8099761069087336155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Moglebaum - You & Me (Live In The Shop)
+  m_EditorClassIdentifier: 
+  Path: event:/Moglebaum - You & Me (Live In The Shop)
+  guid: 04036efd77477648bdf8723d746741b6
+  Banks:
+  - {fileID: -5184994204515498927}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 274912
+--- !u!114 &8277537892330583008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Moglebaum - Capture
+  m_EditorClassIdentifier: 
+  Path: event:/Moglebaum - Capture
+  guid: e3c15ba1882ed145b102d33514b4a2e8
+  Banks:
+  - {fileID: -5184994204515498927}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 207725

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="Event" id="{f09d3d0e-051f-4733-9f83-9cba013ba963}">
+		<property name="name">
+			<value>SOHN - Lessons (Moglebaum Remix)</value>
+		</property>
+		<property name="outputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="folder">
+			<destination>{15dbded6-cd26-4907-8946-917f1cc67cea}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{ece982de-c7f7-4932-abbc-7a68f3688d4a}</destination>
+		</relationship>
+		<relationship name="masterTrack">
+			<destination>{35ec8ba6-17ec-46ac-80e2-7ed9f0f7182a}</destination>
+		</relationship>
+		<relationship name="mixerInput">
+			<destination>{8dec1798-b6a3-4aab-b2de-c1fa8d3a6a09}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{6b344af7-a969-4e13-86c2-7df6bb506b23}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{c9526f86-4adf-4449-a416-a49c163cc5da}</destination>
+		</relationship>
+		<relationship name="groupTracks">
+			<destination>{518db9a5-0ce1-4dcb-9c79-877c9eef3edf}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{6f960fa2-105b-448d-8731-c3777084b2a8}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{884972a7-ffd4-4bc4-9bbe-e571a3d9a867}</destination>
+			<destination>{760aa3dd-89c2-4e4c-8943-49be506863fc}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{92aeb18b-21f1-4f23-8069-2fa8cb7328f1}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixer" id="{ece982de-c7f7-4932-abbc-7a68f3688d4a}">
+		<relationship name="masterBus">
+			<destination>{1072c165-81ea-40fc-8f98-6fea5474c96d}</destination>
+		</relationship>
+	</object>
+	<object class="MasterTrack" id="{35ec8ba6-17ec-46ac-80e2-7ed9f0f7182a}">
+		<relationship name="mixerGroup">
+			<destination>{1072c165-81ea-40fc-8f98-6fea5474c96d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerInput" id="{8dec1798-b6a3-4aab-b2de-c1fa8d3a6a09}">
+		<relationship name="effectChain">
+			<destination>{4a178933-f7b9-434e-a0c5-96f1c9170bfd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{303c7404-b809-4e02-be4e-3d00f899d559}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{000b0774-4024-47fa-a6fa-01519ca96f20}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{6b344af7-a969-4e13-86c2-7df6bb506b23}" />
+	<object class="MarkerTrack" id="{c9526f86-4adf-4449-a416-a49c163cc5da}" />
+	<object class="GroupTrack" id="{518db9a5-0ce1-4dcb-9c79-877c9eef3edf}">
+		<relationship name="modules">
+			<destination>{1b09180f-cfe0-4aec-958e-7bc5b4c0b3e0}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{edf04edb-8346-4f83-b26e-d56355c49ce4}</destination>
+		</relationship>
+	</object>
+	<object class="Timeline" id="{6f960fa2-105b-448d-8731-c3777084b2a8}">
+		<relationship name="modules">
+			<destination>{1b09180f-cfe0-4aec-958e-7bc5b4c0b3e0}</destination>
+		</relationship>
+	</object>
+	<object class="UserProperty" id="{884972a7-ffd4-4bc4-9bbe-e571a3d9a867}">
+		<property name="key">
+			<value>Artist</value>
+		</property>
+		<property name="value">
+			<value>SOHN</value>
+		</property>
+	</object>
+	<object class="UserProperty" id="{760aa3dd-89c2-4e4c-8943-49be506863fc}">
+		<property name="key">
+			<value>Song</value>
+		</property>
+		<property name="value">
+			<value>Lessons (Moglebaum Remix)</value>
+		</property>
+	</object>
+	<object class="EventMixerMaster" id="{1072c165-81ea-40fc-8f98-6fea5474c96d}">
+		<relationship name="effectChain">
+			<destination>{ec12ed38-ffd3-4654-9252-f6b7e692bf41}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ff1bbdeb-0845-422a-afe9-10be4075708a}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{ece982de-c7f7-4932-abbc-7a68f3688d4a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{4a178933-f7b9-434e-a0c5-96f1c9170bfd}">
+		<relationship name="effects">
+			<destination>{c915df54-0640-4e1d-a702-13c3be04d8b4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{303c7404-b809-4e02-be4e-3d00f899d559}" />
+	<object class="SingleSound" id="{1b09180f-cfe0-4aec-958e-7bc5b4c0b3e0}">
+		<property name="length">
+			<value>172.59102040816327</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{a118ec3a-7c05-4d99-bd3d-49ac9640defb}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{edf04edb-8346-4f83-b26e-d56355c49ce4}">
+		<property name="name">
+			<value>Audio 1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3d143a0b-c767-4898-83bf-8d0b188b34bb}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f55bad35-1b86-40d1-9e01-7ecd42da14a4}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1072c165-81ea-40fc-8f98-6fea5474c96d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ec12ed38-ffd3-4654-9252-f6b7e692bf41}">
+		<relationship name="effects">
+			<destination>{a34de4a4-7fcd-4b45-9306-431eafa4df9a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ff1bbdeb-0845-422a-afe9-10be4075708a}" />
+	<object class="MixerBusFader" id="{c915df54-0640-4e1d-a702-13c3be04d8b4}" />
+	<object class="MixerBusEffectChain" id="{3d143a0b-c767-4898-83bf-8d0b188b34bb}">
+		<relationship name="effects">
+			<destination>{f429c227-7ba4-40cf-875c-324f272d4ae8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f55bad35-1b86-40d1-9e01-7ecd42da14a4}" />
+	<object class="MixerBusFader" id="{a34de4a4-7fcd-4b45-9306-431eafa4df9a}" />
+	<object class="MixerBusFader" id="{f429c227-7ba4-40cf-875c-324f272d4ae8}" />
+</objects>
