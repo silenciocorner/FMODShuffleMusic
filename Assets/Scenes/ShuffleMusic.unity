@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 592823962}
   - component: {fileID: 592823963}
   m_Layer: 0
-  m_Name: ShuffleMusic
+  m_Name: ShufflePlaylist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

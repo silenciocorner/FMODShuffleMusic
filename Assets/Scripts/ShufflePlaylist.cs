@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShuffleMusicScript : MonoBehaviour
+public class ShufflePlaylist : MonoBehaviour
 {
     
     
